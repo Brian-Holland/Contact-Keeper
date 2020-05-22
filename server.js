@@ -14,7 +14,7 @@ app.use("/api/auth", require("./routes/auth"));
 app.use("/api/contacts", require("./routes/contacts"));
 
 app.get("/", (req, res) => {
-    res.json({ msg: "Welome to the ContactKeeper API" });
+    res.json({ msg: "Welcome to the ContactKeeper API" });
 });
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
