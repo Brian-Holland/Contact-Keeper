@@ -19,7 +19,8 @@ export default (state, action) => {
                 user: action.payload,
             };
         case REGISTER_SUCCESS:
-            localStorage.setItem("token", "action.payload.token");
+        case LOGIN_SUCCESS:
+            localStorage.setItem("token", action.payload.token);
             return {
                 ...state,
                 ...action.payload,
@@ -28,6 +29,8 @@ export default (state, action) => {
             };
         case REGISTER_FAIL:
         case AUTH_ERROR:
+        case LOGIN_FAIL:
+        case LOGOUT:
             localStorage.removeItem("token");
             return {
                 ...state,
