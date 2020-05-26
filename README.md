@@ -2,7 +2,7 @@
 
 ### Deployed At:
 
-Coming soon!
+https://contactkeeper-react-app.herokuapp.com/
 
 ### Description
 
@@ -10,18 +10,20 @@ Full MERN stack application allowing users to create an account and then use ful
 
 ### Built Using
 
-* React
-  * Hooks
-  * Context API
--   Express
--   MongoDB/mongoose
--   Node
+-   React
+    -   Hooks
+    -   Context API
+
+*   Express
+*   MongoDB/mongoose
+*   Node
 
 ### Features
-* Authentication
-* Validation
-* Password encryption/salting & hashing
-* jsonwebtokens
-* RESTful API
-* Full CRUD commands
-* State management
+
+-   Authentication
+-   Validation
+-   Password encryption/salting & hashing
+-   jsonwebtokens
+-   RESTful API
+-   Full CRUD commands
+-   State management
