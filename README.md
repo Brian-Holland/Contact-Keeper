@@ -10,7 +10,18 @@ Full MERN stack application allowing users to create an account and then use ful
 
 ### Built Using
 
--   React
+* React
+  * Hooks
+  * Context API
 -   Express
 -   MongoDB/mongoose
 -   Node
+
+### Features
+* Authentication
+* Validation
+* Password encryption/salting & hashing
+* jsonwebtokens
+* RESTful API
+* Full CRUD commands
+* State management
